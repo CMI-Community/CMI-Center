@@ -1,0 +1,31 @@
+# Local analysis and working materials
+/outputs/
+/research/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Private runtime data and backups
+/data/
+/uploads/
+/backups/
+
+# Dependencies and build output
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+dist/
+build/
+.next/
+coverage/
+
+# Logs and operating system files
+*.log
+.DS_Store
+Thumbs.db
